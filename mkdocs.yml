@@ -1,0 +1,8 @@
+site_name: "test-relation-1791898867125"
+site_description: "react app for relation processor test"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

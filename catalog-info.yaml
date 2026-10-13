@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-relation-1791898867125
+  description: react app for relation processor test
+  annotations:
+    github.com/project-slug: janus-qe/test-relation-1791898867125
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/createdAt: 10/13/2026, 1:41:17 PM
+    custom.io/annotation: test-annotation
+    custom.io/other: value
+    backstage.io/template-version: 0.0.1
+  labels:
+    custom: test-label
+    other: test-label
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:janus-qe/maintainers
+  scaffoldedFrom: template:default/create-react-app-template-with-timestamp-entityref
